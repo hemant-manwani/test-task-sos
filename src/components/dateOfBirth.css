@@ -1,0 +1,73 @@
+.customLabel {
+  color: #5c5b5c;
+  font-size: 12px;
+}
+
+.center {
+  text-align: center;
+}
+
+.blocks {
+  border: 1px solid #dfdfdf;
+  display: inline-block;
+  width: 100%;
+  padding: 5px 15px;
+  border: 0;
+}
+
+.innerBlock {
+  border-right: 2px solid #dfdfdf;
+  margin-bottom: -2px !important;
+  width: 33.33%;
+}
+
+.blocks .innerBlock.active .fields {
+  background: #498fe1;
+  border: 0 none;
+  border-radius: 0;
+  color: rgb(255, 255, 255);
+}
+
+.innerBlock:last-child {
+  border-right: 0 none;
+}
+
+.customDate {
+  text-align: center;
+  height: 38px;
+  color: #abaaab;
+  width: 93%;
+}
+
+.dateBlock {
+  border-right: 0;
+}
+
+.customSelect {
+  padding: 5px 8px;
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.customSelect:focus {
+  outline: none;
+}
+
+.dateSelect {
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 0px;
+  overflow: hidden;
+  height: 38px;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 12px;
+  padding-left: 15px;
+}

@@ -1,0 +1,29 @@
+.dateSelect {
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 0px;
+  overflow: hidden;
+  height: 38px;
+}
+
+.customSelect {
+  padding: 5px 8px;
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.customSelect:focus {
+  outline: none;
+}
+
+.customDate {
+  text-align: center;
+  height: 38px;
+  color: #abaaab;
+  width: 93%;
+}

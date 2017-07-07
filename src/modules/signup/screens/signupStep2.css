@@ -1,0 +1,122 @@
+.customContainer {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 350px;
+  border: 2px solid #e1e1e1;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.signUp {
+  color: #58a2e8;
+  text-align: center;
+}
+
+.borderBottom {
+  border: 1px solid #d2d2d2;
+}
+
+.barImage {
+  width: 100%;
+}
+
+.customLabel {
+  color: #5c5b5c;
+  font-size: 12px;
+}
+
+.center {
+  text-align: center;
+}
+
+.blocks {
+  border: 1px solid #dfdfdf;
+  display: inline-block;
+  width: 100%;
+}
+
+.innerBlock {
+  border-right: 2px solid #dfdfdf;
+  margin-bottom: -2px !important;
+  width: 33.33%;
+}
+
+.fields {
+  border-radius: 0;
+  color: #5c5b5c;
+  font-size: 12px;
+  line-height: 23px;
+  padding: 13px 10px;
+  text-align: center;
+  margin-right: 0 !important;
+}
+
+.fields:hover {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-color: transparent;
+}
+
+.blocks .innerBlock.active .fields {
+  background: #498fe1;
+  border: 0 none;
+  border-radius: 0;
+  color: rgb(255, 255, 255);
+}
+
+.innerBlock:last-child {
+  border-right: 0 none;
+}
+
+.backButton {
+  color: #abaaab;
+}
+
+.selectStyle {
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #fff url("../assets/images/select-icon.png") no-repeat 96% 50%;
+  height: 38px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.customSelect {
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 5px 15px;
+}
+
+.customSelect:focus {
+  outline: none;
+}
+
+.dateSelect {
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 0px;
+  overflow: hidden;
+  height: 38px;
+}
+
+.customDate {
+  text-align: center;
+  height: 38px;
+  color: #abaaab;
+  width: 93%;
+}
+
+.dateBlock {
+  border-right: 0;
+}

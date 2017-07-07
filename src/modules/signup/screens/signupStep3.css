@@ -1,0 +1,42 @@
+.wrapper {
+  width: 350px;
+  height: 410px;
+  border: 2px solid #e1e1e1;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.signUp {
+  color: #58a2e8;
+  text-align: center;
+}
+
+.barImage {
+  width: 100%;
+}
+
+.thankyouImg {
+  width: 40%;
+}
+
+.thankYou {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.dashboardBtn {
+  background: #fff;
+  border: 1px solid hsl(212, 71%, 77%);
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.arrowRight {
+  margin-left: 5px;
+}
+
+.goBtn {
+  text-align: center;
+  margin-top: 60px;
+  display: block;
+}

@@ -1,0 +1,48 @@
+.blocks {
+  border: 1px solid #dfdfdf;
+  display: inline-block;
+  width: 100%;
+  padding: 5px 15px;
+  border: 0;
+}
+
+.innerBlock {
+  margin-bottom: -2px !important;
+  width: 33.33%;
+}
+
+.fields {
+  border-radius: 0;
+  color: #5c5b5c;
+  font-size: 12px;
+  padding: 9px 10px;
+  text-align: center;
+  margin-right: 0 !important;
+  width: 100%;
+  background: #fff;
+  box-shadow: none;
+  border: 1px solid #dfdfdf;
+}
+
+.fields:focus {
+  border: 0 !important;
+}
+
+.activeButton {
+  background: #498fe1;
+  border: 0 none;
+  border-radius: 0;
+  color: rgb(255, 255, 255);
+  padding: 9px 10px;
+}
+
+.blocks .innerBlock.active .fields {
+  background: #498fe1;
+  border: 0 none;
+  border-radius: 0;
+  color: rgb(255, 255, 255);
+}
+
+.innerBlock:last-child {
+  border-right: 0 none;
+}

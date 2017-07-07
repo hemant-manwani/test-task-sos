@@ -1,0 +1,26 @@
+.customLabel {
+  color: #5c5b5c;
+  font-size: 12px;
+}
+
+.inputField {
+  padding: 5px 15px;
+}
+
+.formControl {
+  border-top: 0;
+  border-left: 0;
+  border-radius: 0px;
+  border-right: 0;
+  border-bottom: 1px solid #dadada;
+  box-shadow: none;
+}
+
+.formControl:focus {
+  box-shadow: none;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 12px;
+}
